@@ -148,15 +148,12 @@ ol {
   font-family: Oswald, sans-serif;
   font-size: 30px;
   font-weight: 700;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 1;
-  white-space: nowrap;
   line-height: 100%;
+  justify-self: flex-start;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  justify-self: flex-start;
+  max-width: 196px;
 }
 
 .content__card-link {
